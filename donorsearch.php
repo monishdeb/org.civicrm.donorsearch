@@ -40,7 +40,6 @@ function donorsearch_civicrm_install() {
     )),
     'permission' => 'administer CiviCRM',
   ));
-  CRM_Core_BAO_Navigation::resetNavigation();
 
   $params = array(
     array(
